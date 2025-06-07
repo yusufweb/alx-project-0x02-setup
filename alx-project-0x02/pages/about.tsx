@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../components/layout/Header'; // Assuming you have a Header component
-import Button from '../components/common/Button'; // Import the new Button component
+import Header from '@/components/layout/Header'; // Assuming you have a Header component
+import Button from '@/components/common/Button'; // Import the new Button component
 
 const AboutPage: React.FC = () => {
   const handleButtonClick = (buttonName: string) => {

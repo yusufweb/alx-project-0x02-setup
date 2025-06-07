@@ -18,7 +18,7 @@ const Header: React.FC = () => {
       <nav>
         <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex' }}>
           <li style={{ marginRight: '1rem' }}>
-            <Link href="/" style={{ color: '#fff', textDecoration: 'none' }}>
+            <Link href="/home" style={{ color: '#fff', textDecoration: 'none' }}>
               Home 
             </Link>
           </li>

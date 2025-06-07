@@ -9,7 +9,7 @@ const UsersPage: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const fetchUsers = async () => {
+    const getStaticProps = async () => {
       try {
         const response = await fetch('https://jsonplaceholder.typicode.com/users');
         if (!response.ok) {
@@ -24,7 +24,7 @@ const UsersPage: React.FC = () => {
       }
     };
 
-    fetchUsers();
+    getStaticProps();
   }, []); 
 
   return (

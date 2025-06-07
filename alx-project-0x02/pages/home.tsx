@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import Card from '../components/common/Card';
+import Card from '@/components/common/Card';
 import PostModal from '../components/common/PostModal';
-import Header from '../components/layout/Header'; // Assuming Header component still exists
+import Header from '@/components/layout/Header'; // Assuming Header component still exists
 
 interface Post {
   id: number;
@@ -34,7 +34,6 @@ const HomePage: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header /> 
-
       <main className="p-5 max-w-6xl mx-auto">
         <h1 className="text-4xl font-extrabold text-center text-gray-900 mb-8">Welcome to the Home Page!</h1>
         <p className="text-lg text-center text-gray-600 mb-8">This is where you can see newly added content.</p>
